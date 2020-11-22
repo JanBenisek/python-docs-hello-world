@@ -11,7 +11,9 @@ def hello_world():
                                                        os.environ['FLASK_DEBUG'],
                                                        os.environ['FLASK_APP'])
    
-   return result
+    return result
+
+hello_world()  
 
 # Start App
 if __name__ == "__main__":
