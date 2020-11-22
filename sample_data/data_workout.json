@@ -1,0 +1,77 @@
+[
+{
+	"id": "1",
+	"sessionID": "1",
+	"sessionStart": "2020-11-01 11:32",
+	"category": "gym",
+	"workout":
+		{
+		"dips": {"reps": [7, 7, 7],
+			     "weight": [10, 15, 20]},
+		"pull-ups": {"reps": [8, 8, 8],
+			         "weight": [10, 15, 15]}
+
+		}
+},
+{
+	"id": "2",
+	"sessionID": "2",
+	"sessionStart": "2020-11-02 13:32",
+	"category": "gym",
+	"workout":
+		{
+		"push-up": {"reps": [20, 20, 20],
+			        "weight": [0, 0, 0]},
+		"rows": {"reps": [10, 10, 10],
+			      "weight": [0, 0, 0]}
+
+		}
+},
+{
+	"id": "3",
+	"sessionID": "3",
+	"sessionStart": "2020-11-06 09:42",
+	"category": "gym",
+	"workout":
+		{
+		"push-up": {"reps": [30, 30, 30],
+			        "weight": [0, 0, 0]},
+		"rows": {"reps": [15, 15, 15],
+			      "weight": [0, 0, 0]}
+
+		}
+},
+{
+	"id": "4",
+	"sessionID": "4",
+	"sessionStart": "2020-11-03 07:20",
+	"category": "gym",
+	"workout":
+		{
+		"dips": {"reps": [8, 8, 8],
+			     "weight": [0, 10, 10]},
+		"pull-ups": {"reps": [9, 9, 9],
+			         "weight": [10, 10, 10]}
+
+		}
+},
+{
+	"id": "5",
+	"sessionID": "5",
+	"sessionStart": "2020-11-04 09:14",
+	"category": "run",
+	"workout":
+		{
+		"distanceKm": 10.6,
+		"durarationMins": 50.5}
+},
+{   "id": "6",
+	"sessionID": "6",
+	"sessionStart": "2020-11-05 08:20",
+	"category": "run",
+	"workout":
+		{
+		"distanceKm": 25.6,
+		"durarationMins": 312.53}
+}
+]
