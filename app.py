@@ -4,7 +4,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return str(dict(os.environ))
+    result = ('URL: {}, KEY: {}, FLASK_ENV: {}, '
+              'FLASK_DEBUG: {}, FLASK_APP: {}').format(os.environ['URL'],
+                                                       os.environ['KEY'],
+                                                       os.environ['FLASK_ENV'],
+                                                       os.environ['FLASK_DEBUG'],
+                                                       os.environ['FLASK_APP'])
+   
+   return result
 
 # Start App
 if __name__ == "__main__":
